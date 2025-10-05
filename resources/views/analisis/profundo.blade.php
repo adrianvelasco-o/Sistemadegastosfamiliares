@@ -37,7 +37,7 @@
         <div class="alert alert-info d-flex align-items-start">
             <i class="fas fa-info-circle fa-2x me-3 mt-1"></i>
             <div>
-                <h5>No hay datos suficientes para el análisis profundo</h5>
+                <h5>No hay datos suficientes para el análisis</h5>
                 <p>Registra al menos 5 gastos dinámicos para activar el análisis detallado.</p>
             </div>
         </div>
