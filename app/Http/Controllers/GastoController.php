@@ -7,7 +7,6 @@ use Illuminate\Http\Request;
 
 class GastoController extends Controller
 {
-    // Categorías predefinidas clasificadas
     private function getCategoriasPorTipo($tipo)
     {
         $categorias = [
@@ -43,6 +42,7 @@ class GastoController extends Controller
 
     public function guardar(Request $request)
     {
+        // dd($request->all());
         $request->validate([
             'tipo' => 'required|in:fijo,dinamico',
             'categoria' => 'required|string',
